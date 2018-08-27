@@ -1,0 +1,6 @@
+---
+- hosts: wildflyservers
+  become: true
+  tasks:
+  - include_role:
+      name: wildflyapp

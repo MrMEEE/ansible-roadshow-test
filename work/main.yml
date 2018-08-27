@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+  - name: Call the ping module
+    ping:
+      data: pong from Ansible
